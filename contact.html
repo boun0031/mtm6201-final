@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact & Registration | Active Life Centre</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap CSS & Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="css/main.css" rel="stylesheet">
+</head>
+<body class="contact-page">
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="images/logo.png" alt="Active Life Centre Logo">
+      </a>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="program.html">PROGRAM</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="contact.html" aria-current="page">CONTACT US</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- CONTACT HERO SECTION -->
+  <section id="contact">
+    <div class="contact-hero">
+      <img src="images/contact-registration.png" class="contact-hero-img" alt="Contact & Registration">
+      <div class="contact-hero-text">
+        <h1>Contact & Registration</h1>
+        <p>Have questions or ready to sign up? Fill out the form or reach us directly.</p>
+      </div>
+    </div>
+    
+    <div class="content-section">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-8">
+            <form class="contact-form">
+              <div class="form-group mb-4">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your full name" required>
+              </div>
+              
+              <div class="form-group mb-4">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+              </div>
+              
+              <div class="form-group mb-4">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="6" placeholder="Write your message here" required></textarea>
+              </div>
+              
+              <div class="text-center">
+                <button type="submit" class="btn btn-primary contact-submit-btn">Send Message</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="contact-footer mt-auto">
+    <div class="container d-flex justify-content-between align-items-center">
+      <div class="d-flex align-items-center">
+        <i class="bi bi-geo-alt-fill me-2"></i>
+        <span>123 Downtown, Ottawa</span>
+      </div>
+      <a href="contact.html" class="btn btn-success">CONTACT US</a>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html> 
